@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/employee")
 public class EmployeeController {
     @GetMapping
-    public String get(){
-        return "employee details";
+    public void get(){
+        System.out.println("this is feature1 branch");
     }
 }
