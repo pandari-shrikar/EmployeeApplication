@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmployeeController {
     @GetMapping
     public void get(){
-        System.out.println("this is feature1 branch");
+        System.out.println("this is main branch");
     }
 }
